@@ -13,6 +13,9 @@ import { Galerie02Component } from "./galerie/galerie02.component";
 import { Galerie03Component } from "./galerie/galerie03.component";
 import { AtillaZollerComponent } from "./projekte/atilla-zoller.component";
 import { HeinzBothComponent } from "./projekte/heinz-both.component";
+import { NSJFComponent } from "./projekte/nsjf.component";
+import { GudrunBeckerComponent } from "./projekte/gudrun-becker.component";
+import { JuttaHippComponent } from "./projekte/jutta-hipp.component";
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { HeinzBothComponent } from "./projekte/heinz-both.component";
     Galerie02Component,
     Galerie03Component,
     AtillaZollerComponent,
-    HeinzBothComponent
+    HeinzBothComponent,
+    GudrunBeckerComponent,
+    JuttaHippComponent,
+    NSJFComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

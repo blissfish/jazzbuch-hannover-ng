@@ -9,6 +9,9 @@ import { Galerie02Component } from "./galerie/galerie02.component";
 import { Galerie03Component } from "./galerie/galerie03.component";
 import { AtillaZollerComponent } from "./projekte/atilla-zoller.component";
 import { HeinzBothComponent } from "./projekte/heinz-both.component";
+import { NSJFComponent } from "./projekte/nsjf.component";
+import { GudrunBeckerComponent } from "./projekte/gudrun-becker.component";
+import { JuttaHippComponent } from "./projekte/jutta-hipp.component";
 
 const routes: Routes = [
   { path: "", redirectTo: "/zeitreise", pathMatch: "full" },
@@ -18,7 +21,10 @@ const routes: Routes = [
   { path: "galerie02", component: Galerie02Component },
   { path: "galerie03", component: Galerie03Component },
   { path: "atillazoller", component: AtillaZollerComponent },
-  { path: "heinzboth", component: HeinzBothComponent }
+  { path: "heinzboth", component: HeinzBothComponent },
+  { path: "nsjf", component: NSJFComponent },
+  { path: "gudrunbecker", component: GudrunBeckerComponent },
+  { path: "juttahipp", component: JuttaHippComponent }
 ];
 
 @NgModule({
