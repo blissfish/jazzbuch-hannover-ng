@@ -5,17 +5,28 @@ import { AppRoutingModule } from "./app-routing.module";
 
 import { AppComponent } from "./app.component";
 import { Box1Component } from "./box1/box1.component";
-import { Box2Component } from "./box2/box2.component";
 import { ZeitreiseComponent } from "./zeitreise/zeitreise.component";
+import { LinksComponent } from "./links/links.component";
 import { HeaderComponent } from "./header/header.component";
+import { Galerie01Component } from "./galerie/galerie01.component";
+import { Galerie02Component } from "./galerie/galerie02.component";
+import { Galerie03Component } from "./galerie/galerie03.component";
+import { AtillaZollerComponent } from "./projekte/atilla-zoller.component";
+import { HeinzBothComponent } from "./projekte/heinz-both.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     Box1Component,
-    Box2Component,
-    ZeitreiseComponent
+    AtillaZollerComponent,
+    ZeitreiseComponent,
+    LinksComponent,
+    Galerie01Component,
+    Galerie02Component,
+    Galerie03Component,
+    AtillaZollerComponent,
+    HeinzBothComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

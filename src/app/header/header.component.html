@@ -1,5 +1,120 @@
-<nav>
-  <a routerLink="/box1">box1</a> <a routerLink="/box2">box2</a>
-  <a routerLink="/zeitreise">Zeitreise</a>
-</nav>
 <div style="text-align:center"><h1>Welcome to {{ title }}!</h1></div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a routerLink="/zeitreise" class="nav-link" href="#"
+          >Zeitreise <span class="sr-only">(current)</span></a
+        >
+      </li>
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdown"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Hannover
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Ein Stück Jazzgeschichte</a>
+          <a class="dropdown-item" href="#">All That Jazz</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdown"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Weitere Projekte
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li class="dropdown-header">Bücher</li>
+          <a class="dropdown-item" href="atillazoller">Atilla Zoller</a>
+          <a class="dropdown-item" href="heinzboth">Heinz Both</a>
+          <a class="dropdown-item" href="juttahipp">Jutta Hipp</a>
+          <a class="dropdown-item" href="gudrunbecker">Gudrun Becker</a>
+          <a class="dropdown-item" href="nsjf">North Sea Jazz Festival</a>
+          <div class="dropdown-divider"></div>
+          <li class="dropdown-header">Dopperl CD</li>
+          <a class="dropdown-item" href="#"
+            >Hannover - Ein Stück Jazzgeschichte</a
+          >
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdown"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Kontakt
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Kontakt & Bestellen</a>
+          <a class="dropdown-item" href="#">Impressum</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdown"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Medien
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li class="dropdown-header">Bilder</li>
+          <a class="dropdown-item" href="galerie01">Galerie 1</a>
+          <a class="dropdown-item" href="galerie02">Galerie 2</a>
+          <a class="dropdown-item" href="galerie03">Galerie 3</a>
+        </div>
+      </li>
+
+      <li class="nav-item"><a class="nav-link" href="links">Links</a></li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input
+        class="form-control mr-sm-2"
+        type="search"
+        placeholder="Search"
+        aria-label="Search"
+      />
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+        Search
+      </button>
+    </form>
+  </div>
+</nav>
