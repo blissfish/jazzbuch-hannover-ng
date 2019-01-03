@@ -6,5 +6,6 @@ import { Component } from "@angular/core";
   styleUrls: ["./galerie.component.css"]
 })
 export class Galerie03Component {
-  title = "Galerie03";
+  title = "Galerie 03";
+  sub = "Media - Presse-Echo";
 }
