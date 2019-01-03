@@ -18,6 +18,9 @@ import { HeinzBothComponent } from "./projekte/heinz-both.component";
 import { NSJFComponent } from "./projekte/nsjf.component";
 import { GudrunBeckerComponent } from "./projekte/gudrun-becker.component";
 import { JuttaHippComponent } from "./projekte/jutta-hipp.component";
+import { AllThatJazzComponent } from "./projekte/allthatjazz.component";
+import { JazzGeschichteComponent } from "./projekte/jazz-geschichte-buch.component";
+import { JazzGeschichteCDComponent } from "./projekte/jazz-geschichte-cd.component";
 
 @NgModule({
   declarations: [
@@ -35,6 +38,9 @@ import { JuttaHippComponent } from "./projekte/jutta-hipp.component";
     HeinzBothComponent,
     GudrunBeckerComponent,
     JuttaHippComponent,
+    AllThatJazzComponent,
+    JazzGeschichteComponent,
+    JazzGeschichteCDComponent,
     NSJFComponent
   ],
   imports: [BrowserModule, AppRoutingModule],

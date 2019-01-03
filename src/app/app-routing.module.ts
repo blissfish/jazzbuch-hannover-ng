@@ -13,6 +13,9 @@ import { HeinzBothComponent } from "./projekte/heinz-both.component";
 import { NSJFComponent } from "./projekte/nsjf.component";
 import { GudrunBeckerComponent } from "./projekte/gudrun-becker.component";
 import { JuttaHippComponent } from "./projekte/jutta-hipp.component";
+import { AllThatJazzComponent } from "./projekte/allthatjazz.component";
+import { JazzGeschichteComponent } from "./projekte/jazz-geschichte-buch.component";
+import { JazzGeschichteCDComponent } from "./projekte/jazz-geschichte-cd.component";
 
 const routes: Routes = [
   { path: "", redirectTo: "/zeitreise", pathMatch: "full" },
@@ -27,6 +30,9 @@ const routes: Routes = [
   { path: "nsjf", component: NSJFComponent },
   { path: "gudrunbecker", component: GudrunBeckerComponent },
   { path: "juttahipp", component: JuttaHippComponent },
+  { path: "jazzgeschichte", component: JazzGeschichteComponent },
+  { path: "jazzgeschichte-cd", component: JazzGeschichteCDComponent },
+  { path: "allthatjazz", component: AllThatJazzComponent },
   { path: "links", component: LinksComponent }
 ];
 

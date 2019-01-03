@@ -38,8 +38,23 @@
           Hannover
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Ein Stück Jazzgeschichte</a>
-          <a class="dropdown-item" href="#">All That Jazz</a>
+          <a
+            routerLink="/jazzgeschichte"
+            class="dropdown-item"
+            href="jazzgeschichte"
+            >Ein Stück Jazzgeschichte</a
+          >
+          <a routerLink="/allthatjazz" class="dropdown-item" href="allthatjazz"
+            >All That Jazz</a
+          >
+          <div class="dropdown-divider"></div>
+          <li class="dropdown-header">Dopperl CD</li>
+          <a
+            routerLink="/jazzgeschichte-cd"
+            class="dropdown-item"
+            href="jazzgeschichte-cd"
+            >Ein Stück Jazzgeschichte</a
+          >
         </div>
       </li>
 
@@ -57,19 +72,32 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li class="dropdown-header">Bücher</li>
-          <a class="dropdown-item" href="atillazoller">Atilla Zoller</a>
-          <a class="dropdown-item" href="heinzboth">Heinz Both</a>
-          <a class="dropdown-item" href="juttahipp">Jutta Hipp</a>
-          <a class="dropdown-item" href="gudrunbecker">Gudrun Becker</a>
-          <a class="dropdown-item" href="nsjf">North Sea Jazz Festival</a>
-          <div class="dropdown-divider"></div>
-          <li class="dropdown-header">Dopperl CD</li>
-          <a class="dropdown-item" href="#"
-            >Hannover - Ein Stück Jazzgeschichte</a
+          <a
+            routerLink="/atillazoller"
+            class="dropdown-item"
+            href="atillazoller"
+            >Atilla Zoller</a
+          >
+          <a routerLink="/heinzboth" class="dropdown-item" href="heinzboth"
+            >Heinz Both</a
+          >
+          <a routerLink="/juttahipp" class="dropdown-item" href="juttahipp"
+            >Jutta Hipp</a
+          >
+          <a
+            routerLink="/gudrunbecker"
+            class="dropdown-item"
+            href="gudrunbecker"
+            >Gudrun Becker</a
+          >
+          <a routerLink="/nsjf" class="dropdown-item" href="nsjf"
+            >North Sea Jazz Festival</a
           >
         </div>
       </li>
-      <li class="nav-item"><a class="nav-link" href="kontakt">Kontakt</a></li>
+      <li class="nav-item">
+        <a routerLink="/kontakt" class="nav-link" href="kontakt">Kontakt</a>
+      </li>
 
       <li class="nav-item dropdown">
         <a
@@ -85,13 +113,21 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li class="dropdown-header">Bilder</li>
-          <a class="dropdown-item" href="galerie01">Galerie 1</a>
-          <a class="dropdown-item" href="galerie02">Galerie 2</a>
-          <a class="dropdown-item" href="galerie03">Galerie 3</a>
+          <a routerLink="/galerie01" class="dropdown-item" href="galerie01"
+            >Galerie 1</a
+          >
+          <a routerLink="/galerie02" class="dropdown-item" href="galerie02"
+            >Galerie 2</a
+          >
+          <a routerLink="/galerie03" class="dropdown-item" href="galerie03"
+            >Galerie 3</a
+          >
         </div>
       </li>
 
-      <li class="nav-item"><a class="nav-link" href="links">Links</a></li>
+      <li class="nav-item">
+        <a routerLink="/links" class="nav-link" href="links">Links</a>
+      </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input

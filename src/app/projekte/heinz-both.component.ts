@@ -2,7 +2,7 @@ import { Component } from "@angular/core";
 
 @Component({
   selector: "heinzboth",
-  templateUrl: "./projekte.component.html",
+  templateUrl: "./heinz-both.component.html",
   styleUrls: ["./projekte.component.css"]
 })
 export class HeinzBothComponent {
@@ -10,4 +10,5 @@ export class HeinzBothComponent {
   sub = "Sein Leben - Seine Musik";
   sub2 =
     "Der Autor und Zeitzeuge Gerhard Evertz stellt in diesem Buch den großen Musiker Heinz Both, sein Leben und seine Musik vor.";
+  image = "image095.jpg";
 }
