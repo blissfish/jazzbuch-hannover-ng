@@ -4,8 +4,10 @@ import { NgModule } from "@angular/core";
 import { AppRoutingModule } from "./app-routing.module";
 
 import { AppComponent } from "./app.component";
-import { Box1Component } from "./box1/box1.component";
+import { KontaktComponent } from "./kontakt/kontakt.component";
+
 import { ZeitreiseComponent } from "./zeitreise/zeitreise.component";
+import { NjghComponent } from "./njgh/njgh.component";
 import { LinksComponent } from "./links/links.component";
 import { HeaderComponent } from "./header/header.component";
 import { Galerie01Component } from "./galerie/galerie01.component";
@@ -21,9 +23,10 @@ import { JuttaHippComponent } from "./projekte/jutta-hipp.component";
   declarations: [
     AppComponent,
     HeaderComponent,
-    Box1Component,
+    KontaktComponent,
     AtillaZollerComponent,
     ZeitreiseComponent,
+    NjghComponent,
     LinksComponent,
     Galerie01Component,
     Galerie02Component,
@@ -36,6 +39,6 @@ import { JuttaHippComponent } from "./projekte/jutta-hipp.component";
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, HeaderComponent]
 })
 export class AppModule {}

@@ -7,4 +7,7 @@ import { Component } from "@angular/core";
 })
 export class JuttaHippComponent {
   title = "Jutta Hipp";
+  sub = "Ihr Leben & Wirken";
+  sub2 =
+    "Malerin - Pianistin - Poetin - Sie war die erste europäische Jazzmusikerin, die einen Vertrag beim legendären US - Label Blue Note erhielt.";
 }

@@ -7,4 +7,7 @@ import { Component } from "@angular/core";
 })
 export class GudrunBeckerComponent {
   title = "Gudrun Becker";
+  sub = "Jazz war ihr Leben";
+  sub2 =
+    'Eine Zeitreise mit musikalischen Höhepunkten eines viel zu kurzen "Jazz-Lebens".';
 }

@@ -7,4 +7,6 @@ import { Component } from "@angular/core";
 })
 export class ZeitreiseComponent {
   title = "Eine Zeitreise ...";
+  sub =
+    "Erlebnisse meiner Zeit als Musiker und zu jazzhistorischen Projekte ab 1997.";
 }

@@ -6,5 +6,5 @@ import { Component } from "@angular/core";
   styleUrls: ["./links.component.css"]
 })
 export class LinksComponent {
-  title = "Links!";
+  title = "Links";
 }

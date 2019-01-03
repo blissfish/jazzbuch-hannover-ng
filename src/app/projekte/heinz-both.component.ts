@@ -7,4 +7,7 @@ import { Component } from "@angular/core";
 })
 export class HeinzBothComponent {
   title = "Heinz Both";
+  sub = "Sein Leben - Seine Musik";
+  sub2 =
+    "Der Autor und Zeitzeuge Gerhard Evertz stellt in diesem Buch den großen Musiker Heinz Both, sein Leben und seine Musik vor.";
 }

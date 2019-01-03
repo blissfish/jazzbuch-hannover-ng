@@ -6,5 +6,6 @@ import { Component } from "@angular/core";
   styleUrls: ["./projekte.component.css"]
 })
 export class NSJFComponent {
-  title = "NSJF";
+  title = "North Sea Jazzfestivals";
+  sub = "Eine Dokumentation";
 }
