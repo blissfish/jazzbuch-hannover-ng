@@ -9,4 +9,5 @@ export class JazzGeschichteCDComponent {
   title = "Hannover - Ein Stück Jazzgeschichte";
   sub = "Die Doppel CD zum Buch";
   image = "image068.jpg";
+  imgpath = "http://images.jazzbuch-hannover.de/";
 }

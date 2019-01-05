@@ -10,4 +10,5 @@ export class JazzGeschichteComponent {
   sub =
     "Ein Streifzug durch die hannoversche Jazz-Szene der 40er- bis 60er-Jahre.";
   image = "image062.jpg";
+  imgpath = "http://images.jazzbuch-hannover.de/";
 }

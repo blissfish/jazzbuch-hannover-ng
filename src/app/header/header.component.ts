@@ -7,4 +7,5 @@ import { Component } from "@angular/core";
 })
 export class HeaderComponent {
   title = "Jazzbuch-Hannover";
+  imgpath = "http://images.jazzbuch-hannover.de/";
 }

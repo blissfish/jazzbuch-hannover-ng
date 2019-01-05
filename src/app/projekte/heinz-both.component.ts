@@ -11,4 +11,5 @@ export class HeinzBothComponent {
   sub2 =
     "Der Autor und Zeitzeuge Gerhard Evertz stellt in diesem Buch den großen Musiker Heinz Both, sein Leben und seine Musik vor.";
   image = "image095.jpg";
+  imgpath = "http://images.jazzbuch-hannover.de/";
 }

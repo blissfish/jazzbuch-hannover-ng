@@ -9,4 +9,5 @@ export class NSJFComponent {
   title = "North Sea Jazzfestivals";
   sub = "Eine Dokumentation";
   image = "buch-seitenansicht-north-sea.jpg";
+  imgpath = "http://images.jazzbuch-hannover.de/";
 }

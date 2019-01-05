@@ -6,4 +6,5 @@ import { Component } from "@angular/core";
 })
 export class NjghComponent {
   title = "The New Jazz Group Hannover";
+  imgpath = "http://images.jazzbuch-hannover.de/";
 }

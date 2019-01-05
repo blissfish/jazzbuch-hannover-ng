@@ -8,4 +8,5 @@ import { Component } from "@angular/core";
 export class Galerie02Component {
   title = "Galerie 02";
   sub = "Media - Presse-Echo";
+  imgpath = "http://images.jazzbuch-hannover.de/";
 }

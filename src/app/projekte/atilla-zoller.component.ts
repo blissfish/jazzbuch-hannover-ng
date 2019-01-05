@@ -11,4 +11,5 @@ export class AtillaZollerComponent {
   sub2 =
     "Der Autor und Zeitzeuge Gerhard Evertz stellt in diesem Buch den großen Musiker Atilla Zoller, sein Leben und seine Musik vor.";
   image = "image086.jpg";
+  imgpath = "http://images.jazzbuch-hannover.de/";
 }

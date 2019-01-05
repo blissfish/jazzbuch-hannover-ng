@@ -11,4 +11,5 @@ export class GudrunBeckerComponent {
   sub2 =
     'Eine Zeitreise mit musikalischen Höhepunkten eines viel zu kurzen "Jazz-Lebens".';
   image = "image109.jpg";
+  imgpath = "http://images.jazzbuch-hannover.de/";
 }

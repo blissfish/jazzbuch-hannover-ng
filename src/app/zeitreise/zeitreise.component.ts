@@ -9,4 +9,5 @@ export class ZeitreiseComponent {
   title = "Eine Zeitreise ...";
   sub =
     "Erlebnisse meiner Zeit als Musiker und zu jazzhistorischen Projekte ab 1997.";
+  imgpath = "http://images.jazzbuch-hannover.de/";
 }

@@ -10,4 +10,5 @@ export class AllThatJazzComponent {
   sub =
     "Eine Liebeserklärung an den Jazz und seine Protagonisten der niedersächsischen Landeshauptstadt";
   image = "image077.jpg";
+  imgpath = "http://images.jazzbuch-hannover.de/";
 }
